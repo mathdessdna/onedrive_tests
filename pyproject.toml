@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "onedrive-tests"
+version = "0.1.0"
+description = ""
+authors = ["MathieuDESSIRIER <mathieu.dessirier@dnascript.co>"]
+readme = "README.md"
+packages = [{include = "onedrive_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+msal = "^1.23.0"
+requests = "^2.31.0"
+boto3 = "^1.28.44"
+botocore = "^1.31.44"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
